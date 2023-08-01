@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "My name's Wanxia Yang, you can call me Jane. I'm a full-stack developer based in South Adelaide, Australia.",
+    description2: "I love being a developer, because it means to continuously learn, adapt, and innovate. To me, every new technique discovered and applied feels like conjuring magic. The possibility to turn lines of code into a living, breathing application is not just fascinating, but also profoundly satisfying.",
     image: 2
 }
