@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.aa165260.chunk.css",
-    "main.js": "/developer-portfolio/static/js/main.fafa9647.chunk.js",
-    "main.js.map": "/developer-portfolio/static/js/main.fafa9647.chunk.js.map",
+    "main.js": "/developer-portfolio/static/js/main.a95f70ec.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.a95f70ec.chunk.js.map",
     "runtime-main.js": "/developer-portfolio/static/js/runtime-main.835dfba9.js",
     "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.835dfba9.js.map",
     "static/css/2.f44803aa.chunk.css": "/developer-portfolio/static/css/2.f44803aa.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.aa165260.chunk.css.map": "/developer-portfolio/static/css/main.aa165260.chunk.css.map",
     "static/js/2.d5eb379e.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.d5eb379e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/developer-portfolio/static/media/BestermindRegular.e58a1922.ttf",
+    "static/media/WanxiaYang_Resume.b12ee9f4.pdf": "/developer-portfolio/static/media/WanxiaYang_Resume.b12ee9f4.pdf",
     "static/media/adobe-xd.fa7a22d2.svg": "/developer-portfolio/static/media/adobe-xd.fa7a22d2.svg",
     "static/media/adobeaudition.dd56aeda.svg": "/developer-portfolio/static/media/adobeaudition.dd56aeda.svg",
     "static/media/after-effects.16f048ca.svg": "/developer-portfolio/static/media/after-effects.16f048ca.svg",
@@ -126,7 +127,6 @@
     "static/media/react.c3a0b34a.svg": "/developer-portfolio/static/media/react.c3a0b34a.svg",
     "static/media/redTheme-boy.74f6dfaa.svg": "/developer-portfolio/static/media/redTheme-boy.74f6dfaa.svg",
     "static/media/redTheme-girl.e2b9dd83.svg": "/developer-portfolio/static/media/redTheme-girl.e2b9dd83.svg",
-    "static/media/resume.bc382d73.pdf": "/developer-portfolio/static/media/resume.bc382d73.pdf",
     "static/media/routing algorithm.563e94fc.png": "/developer-portfolio/static/media/routing algorithm.563e94fc.png",
     "static/media/ruby.775cc228.svg": "/developer-portfolio/static/media/ruby.775cc228.svg",
     "static/media/selenium.f0d42a91.svg": "/developer-portfolio/static/media/selenium.f0d42a91.svg",
@@ -156,6 +156,6 @@
     "static/css/2.f44803aa.chunk.css",
     "static/js/2.d5eb379e.chunk.js",
     "static/css/main.aa165260.chunk.css",
-    "static/js/main.fafa9647.chunk.js"
+    "static/js/main.a95f70ec.chunk.js"
   ]
 }
