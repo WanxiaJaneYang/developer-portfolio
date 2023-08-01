@@ -12,7 +12,6 @@
 
 .experience-description {
     width: 100%;
-    flex: 0.65;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -27,17 +26,23 @@
     margin-bottom: 2rem;
 }
 
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .experience-card {
     display: flex;
     flex-direction: row;
     align-items:flex-start;
     justify-content: flex-start;
-    width: 90%;
-    height: 140px;
+    height: 160px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
     transition: background-color 200ms ease-in-out;
+    width: 100%;
 }
 
 .expcard-img {
@@ -92,15 +97,17 @@
     pointer-events: none;
 }
 
-
-
-
-
-
-@media (min-width: 992px) and (max-width: 1380px) {
-
+@media (min-width: 992px) {
+    .experience-card {
+        width: calc((100% - 2rem) / 3); /* Show 3 cards per row, 2rem is the gap between the cards */
+    }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .experience-card {
+        width: calc((100% - 1rem)/2 ); /* Show 2 cards per row, 1rem is the gap between the cards */
+    }
+}
 
 @media screen and (max-width: 992px) {
     .experience {
@@ -115,11 +122,6 @@
     }    
     .experience-description > h1{
         font-size: 3.2rem;
-    }
-    .experience-card {
-        width: 100%;
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
     }
 }
 
@@ -168,10 +170,6 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-
-}
-  
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
 
@@ -180,4 +178,4 @@
 
 @media only screen and (device-width: 768px) {
 
-}
+} 

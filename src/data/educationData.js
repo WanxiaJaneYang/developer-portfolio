@@ -3,6 +3,16 @@ export const educationData = [
         id: 1,
         institution: 'University of Adelaide',
         course: 'Master of Computing and Innovation',
+        courses:[
+            'Master of Computing and Innovation Project(HD)',
+            'Algorithm and Data Structure Analysis(HD)',
+            'Computer Systems(HD)',
+            'Operating Systems(HD)',
+            'Mining Big Data(HD)',
+            'Computer Network Applications(HD)',
+            'New Venture Creation(D)',
+            'Project Management Fundamentals(D)'
+        ],
         startYear: '2022',
         endYear: 'Present'
     },
