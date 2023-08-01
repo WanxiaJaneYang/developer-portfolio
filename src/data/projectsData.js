@@ -9,12 +9,13 @@ import assembler from "../assets/png/machine-code.png"
 import schedulor from "../assets/png/scheduler.png"
 import translator from "../assets/png/translator.png"
 import jack from "../assets/png/jack.png"
+import protocol from "../assets/png/protocol.png"
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'ArrowFit',
+        projectName: 'ArrowFit(Ongoing)',
         projectDesc: 'A fitness website provides membership management and program planning service for the owner and the customers ',
         tags: ['Java Spring Boot', 'MySQL', 'Maven'],
         code: '',
@@ -41,10 +42,10 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Shopping Recommendation System',
-        projectDesc: 'A shopping recommendation system based on user’s shopping history',
-        tags: ['Python'],
-        code: '',
+        projectName: 'Shopping Recommendation Algorithm',
+        projectDesc: 'Shopping recommendation algorithms based on users\' shopping history',
+        tags: ['Python','Jupyter','Pattern Mining'],
+        code: 'https://github.com/WanxiaJaneYang/recommendation_on_pattern',
         demo: '',
         image: shopping
     },
@@ -52,8 +53,8 @@ export const projectsData = [
         id: 5,
         projectName: 'Toy Proxy Server',
         projectDesc: 'A proxy server that can handle HTTP requests and responses',
-        tags: ['Python'],
-        code: '',
+        tags: ['Python','RFC','HTTP'],
+        code: 'https://github.com/WanxiaJaneYang/ToyProxy',
         demo: '',
         image: server
     },
@@ -61,53 +62,62 @@ export const projectsData = [
         id: 6,
         projectName: 'Distributed Routing Algorithm',
         projectDesc: 'A distributed routing algorithm that can find the shortest path for each router given a network topology',
-        tags: ['Python'],
-        code: '',
+        tags: ['Python','Distributed Routing Algorithm'],
+        code: 'https://github.com/WanxiaJaneYang/RoutingTableCalculator',
         demo: '',
         image: routing
     },
     {
         id: 7,
+        projectName: 'Selective Repeat Protocol',
+        projectDesc: 'A selective repeat protocol that can handle packet loss and packet corruption',
+        tags: ['Python','Transport Protocol'],
+        code: 'https://github.com/WanxiaJaneYang/Selective_Repeat',
+        demo: '',
+        image: protocol
+    },
+    {
+        id: 8,
         projectName: 'Jack Compiler',
         projectDesc: 'A compiler that can compile Jack language to VM language',
-        tags: ['Java','Compiler','VM Language','Jack Language'],
-        code: '',
+        tags: ['Java','VM Language','Jack Language'],
+        code: 'https://github.com/WanxiaJaneYang/JackCompiler',
         demo: '',
         image: jack
     },
     {
-        id: 8,
+        id: 9,
         projectName: 'Hack Assembler',
         projectDesc: 'An assembler that can translate Hack assembly language to Hack machine language',
         tags: ['C++','Machine Language'],
-        code: '',
+        code: 'https://github.com/WanxiaJaneYang/Hack-Assembler',
         demo: '',
         image: assembler
     },
     {
-        id: 9,
+        id: 10,
         projectName: 'Virtual Machine Translator',
         projectDesc: 'A translator that can translate VM language to Hack assembly language',
-        tags: ['C++','VM Language'],
-        code: '',
+        tags: ['C++','VM Language','Hack Assembly Language'],
+        code: 'https://github.com/WanxiaJaneYang/VMTranslator/',
         demo: '',
         image: translator
     },
     {
-        id: 10,
+        id: 11,
         projectName: 'Customized Scheduling Algorithm',
         projectDesc: 'A customized scheduling algorithm that can schedule tasks to achieve a balance among shortest response time, highest throughput and lowest turnaround time',
-        tags: ['C++','Scheduling Algorithm','Operating System'],
-        code: '',
+        tags: ['C++','Cpu Scheduling'],
+        code: 'https://github.com/WanxiaJaneYang/Scheduler',
         demo: '',
         image: schedulor
     },
     {
-        id: 11,
+        id: 12,
         projectName: 'Hanoi Tower Demo',
         projectDesc: 'A demo that can show the process of solving Hanoi Tower problem given the number of disks',
-        tags: ['Java'],
-        code: '',
+        tags: ['Java','Java Swing','GUI'],
+        code: 'https://github.com/WanxiaJaneYang/HanoiTower',
         demo: '',
         image: hanoi
     }
