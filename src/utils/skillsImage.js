@@ -72,6 +72,11 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
+import spring from '../assets/svg/skills/spring-icon.svg'
+import swagger from '../assets/svg/skills/swagger.svg'
+import antd from '../assets/svg/skills/ant-design.svg'
+import maven from '../assets/svg/skills/maven-svgrepo-com.svg'
+import redis from '../assets/svg/skills/redis.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -227,6 +232,16 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'spring':
+            return spring;
+        case 'swagger':
+            return swagger;
+        case 'antd':
+            return antd;
+        case 'maven':
+            return maven;
+        case 'redis':
+            return redis;
         default:
             break;
     }

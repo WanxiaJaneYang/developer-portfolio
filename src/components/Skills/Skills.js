@@ -15,6 +15,11 @@ function Skills() {
         backgroundColor: theme.secondary,
         boxShadow: `0px 0px 30px ${theme.primary30}`
     }
+    
+    const half = Math.ceil(skillsData.length / 2);    
+
+    const firstHalf = skillsData.slice(0, half);
+    const secondHalf = skillsData.slice(half, skillsData.length);
 
     return (
         <div className="skills" style={{backgroundColor: theme.secondary}}>
@@ -32,7 +37,25 @@ function Skills() {
                         play={true} 
                         direction="left"
                     >
-                        {skillsData.map((skill, id) => (
+                        {firstHalf.map((skill, id) => (
+                            <div className="skill--box" key={id} style={skillBoxStyle}>
+                                <img src={skillsImage(skill)} alt={skill} />
+                                <h3 style={{color: theme.tertiary}}>
+                                    {skill}
+                                </h3>
+                            </div>
+                        ))}
+                    </Marquee>
+                    <Marquee 
+                        gradient={false} 
+                        speed={80} 
+                        pauseOnHover={true}
+                        pauseOnClick={true} 
+                        delay={0}
+                        play={true} 
+                        direction="left"
+                    >
+                        {secondHalf.map((skill, id) => (
                             <div className="skill--box" key={id} style={skillBoxStyle}>
                                 <img src={skillsImage(skill)} alt={skill} />
                                 <h3 style={{color: theme.tertiary}}>

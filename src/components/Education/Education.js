@@ -25,6 +25,7 @@ function Education() {
                             startYear={edu.startYear}
                             endYear={edu.endYear}
                             courses={edu.courses}
+                            gpa={edu.gpa}
                         />
                     ))}
                 </div>

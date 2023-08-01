@@ -14,13 +14,14 @@ export const educationData = [
             'Project Management Fundamentals(D)'
         ],
         startYear: '2022',
-        endYear: 'Present'
+        endYear: 'Present',
+        gpa: '6.7/7.0'
     },
     {
         id: 2,
         institution: 'Shanghai University of International Business and Economics',
         course: 'Bachelor of Laws(International Economic Law)',
         startYear: '2012',
-        endYear: '2018'
+        endYear: '2018',
     },
 ]

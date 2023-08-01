@@ -1,19 +1,20 @@
  export const skillsData = [
-    // 'Spring Boot',
+    'Spring',
     'React',
     'MySQL',
+    'Maven',
+    'Swagger',
+    'Azure',
     'HTML',
     'Javascript',
     'CSS',
-    'Azure',
     'Python',
     'Java',
     'C++',
     'Git',
     'MaterialUI',
-    // 'Swagger',
-    // 'AntD',
-    // 'Maven',
+    'AntD',
+    'redis'
     
 ]
 
