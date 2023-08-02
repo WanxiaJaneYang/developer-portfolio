@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.47e635a6.chunk.css",
-    "main.js": "/static/js/main.d1655b22.chunk.js",
-    "main.js.map": "/static/js/main.d1655b22.chunk.js.map",
+    "main.js": "/static/js/main.545352fe.chunk.js",
+    "main.js.map": "/static/js/main.545352fe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.11e15922.js",
     "runtime-main.js.map": "/static/js/runtime-main.11e15922.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
@@ -76,6 +76,7 @@
     "static/media/fitness.06764d9a.png": "/static/media/fitness.06764d9a.png",
     "static/media/flutter.a87a000d.svg": "/static/media/flutter.a87a000d.svg",
     "static/media/folks-task-management.7aac52e7.png": "/static/media/folks-task-management.7aac52e7.png",
+    "static/media/format.673c3cd7.png": "/static/media/format.673c3cd7.png",
     "static/media/gcp.89993b8e.svg": "/static/media/gcp.89993b8e.svg",
     "static/media/gimp.e90f970a.svg": "/static/media/gimp.e90f970a.svg",
     "static/media/girl1.6884bb72.svg": "/static/media/girl1.6884bb72.svg",
@@ -162,6 +163,6 @@
     "static/css/2.19627560.chunk.css",
     "static/js/2.02144ba6.chunk.js",
     "static/css/main.47e635a6.chunk.css",
-    "static/js/main.d1655b22.chunk.js"
+    "static/js/main.545352fe.chunk.js"
   ]
 }
