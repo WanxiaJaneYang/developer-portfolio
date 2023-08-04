@@ -4,18 +4,13 @@ export const educationData = [
         institution: 'University of Adelaide',
         course: 'Master of Computing and Innovation',
         courses:[
-            'Master of Computing and Innovation Project(HD)',
-            'Algorithm and Data Structure Analysis(HD)',
-            'Computer Systems(HD)',
-            'Operating Systems(HD)',
-            'Mining Big Data(HD)',
-            'Computer Network Applications(HD)',
-            'New Venture Creation(D)',
-            'Project Management Fundamentals(D)'
+            'Algorithm and Data Structure Analysis',
+            'Mining Big Data',
+            'Project Management Fundamentals'
         ],
         startYear: '2022',
         endYear: 'Present',
-        gpa: '6.7/7.0'
+        atar: '89%'
     },
     {
         id: 2,
@@ -23,5 +18,6 @@ export const educationData = [
         course: 'Bachelor of Laws(International Economic Law)',
         startYear: '2012',
         endYear: '2018',
+        atar: '81%'
     },
 ]

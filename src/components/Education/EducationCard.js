@@ -7,8 +7,9 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import eduImgWhite from '../../assets/svg/education/eduImgWhite.svg'
 import eduImgBlack from '../../assets/svg/education/eduImgBlack.svg'
 import './Education.css'
+import { Box, Chip } from '@material-ui/core';
 
-function EducationCard({ id, institution, course, startYear, endYear, gpa }) {
+function EducationCard({ id, institution, course, startYear, endYear, atar, courses }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -18,7 +19,7 @@ function EducationCard({ id, institution, course, startYear, endYear, gpa }) {
             "&:hover": {
                 backgroundColor:theme.primary50,
             },
-        },
+        }
     }));
 
     const classes = useStyles();
@@ -32,8 +33,14 @@ function EducationCard({ id, institution, course, startYear, endYear, gpa }) {
                 <div className="education-details">
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                     <h4 style={{color: theme.tertiary}}>{course}</h4>
-                    {gpa && <h6 style={{color: theme.tertiary70}}>GPA: {gpa}</h6>}
+                    {atar && <h6 style={{color: theme.tertiary70}}>ATAR: {atar}</h6>}
                     <h5 style={{color: theme.tertiary80}}>{institution}</h5>
+                    <Box mt={2} >
+                    {courses && courses.map(course => (
+                        <Chip 
+                        label={course} style={{marginRight: '10px',backgroundColor: theme.primary50, color: theme.tertiary}} />
+                    ))}  
+                    </Box>             
                 </div>
             </div>
         </Fade>        

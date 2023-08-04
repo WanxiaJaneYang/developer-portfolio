@@ -17,7 +17,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'ArrowFit(Ongoing)',
-        projectDesc: 'A fitness website provides membership management and program planning service for the owner and the customers ',
+        projectDesc: 'A fitness website designed for an Adelaide fitness business, offering membership management and personalized fitness programs.',
         tags: ['Java Spring Boot', 'MySQL', 'Maven'],
         code: '',
         demo: '',
@@ -26,7 +26,7 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'LabMan Admin',
-        projectDesc: 'A lab equipment management system providing course-specific equipment access management, helping the lab manager track the borrow and return of equipment.',
+        projectDesc: 'An equipment management system for the University of Adelaide. It streamlines course-specific lab equipment access and monitors equipment usage.',
         tags: ['React', 'AntD','Azure'],
         code: 'https://github.com/WanxiaJaneYang/labman-admin-end',
         demo: 'https://victorious-pebble-0bf6fea10.3.azurestaticapps.net',
@@ -35,7 +35,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'LabMan Student',
-        projectDesc: 'A mobile web for students to request equipment based on courses they take, view requests they made and equipment they borrowed.',
+        projectDesc: 'A mobile-friendly website enabling students of University of Adelaide to request course-specific equipment and monitor their own borrowing activities.',
         tags: ['React', 'Material Ui','Azure'],
         code: 'https://github.com/WanxiaJaneYang/Labman-Student',
         demo: 'https://delightful-river-0ac974110.3.azurestaticapps.net',
@@ -44,7 +44,7 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'Shopping Recommendation Algorithm',
-        projectDesc: 'Shopping recommendation algorithms based on users\' shopping history',
+        projectDesc: 'A smart algorithm designed for a grocery store that offers shopping suggestions based on a customer\'s past purchases.',
         tags: ['Python','Jupyter','Pattern Mining'],
         code: 'https://github.com/WanxiaJaneYang/recommendation_on_pattern',
         demo: '',
@@ -53,7 +53,7 @@ export const projectsData = [
     {
         id: 5,
         projectName: 'Toy Proxy Server',
-        projectDesc: 'A proxy server that can handle HTTP requests and responses',
+        projectDesc: 'A converter that takes instructions intended for a virtual machine (an emulation of a computer system) and translates them into a low-level language that a specific hardware can execute.',
         tags: ['Python','RFC','HTTP'],
         code: 'https://github.com/WanxiaJaneYang/ToyProxy',
         demo: '',
@@ -71,8 +71,8 @@ export const projectsData = [
     {
         id: 7,
         projectName: 'Selective Repeat Protocol',
-        projectDesc: 'A selective repeat protocol that can handle packet loss and packet corruption',
-        tags: ['Python','Transport Protocol'],
+        projectDesc: 'A communication system that ensures information sent over the internet reaches its destination correctly, even when some data gets lost or corrupted.',
+        tags: ['C','Transportation Protocol'],
         code: 'https://github.com/WanxiaJaneYang/Selective_Repeat',
         demo: '',
         image: protocol
@@ -80,7 +80,7 @@ export const projectsData = [
     {
         id: 8,
         projectName: 'Jack Compiler',
-        projectDesc: 'A compiler that can compile Jack language to VM language',
+        projectDesc: 'A tool that translates human-friendly programming instructions(JACK) into a format that can be executed by a Virtual Machine.',
         tags: ['Java','VM Language','Jack Language'],
         code: 'https://github.com/WanxiaJaneYang/JackCompiler',
         demo: '',
@@ -89,7 +89,7 @@ export const projectsData = [
     {
         id: 9,
         projectName: 'Hack Assembler',
-        projectDesc: 'An assembler that can translate Hack assembly language to Hack machine language',
+        projectDesc: 'A utility that transforms low-level programming language (HACK) into a format that can be directly understood by a computer system.',
         tags: ['C++','Machine Language'],
         code: 'https://github.com/WanxiaJaneYang/Hack-Assembler',
         demo: '',
@@ -98,7 +98,7 @@ export const projectsData = [
     {
         id: 10,
         projectName: 'Virtual Machine Translator',
-        projectDesc: 'A translator that can translate VM language to Hack assembly language',
+        projectDesc: 'A converter that takes instructions intended for a virtual machine (an emulation of a computer system) and translates them into a low-level language that a specific hardware can execute.',
         tags: ['C++','VM Language','Hack Assembly Language'],
         code: 'https://github.com/WanxiaJaneYang/VMTranslator/',
         demo: '',
@@ -125,7 +125,7 @@ export const projectsData = [
     {
         id: 13,
         projectName: 'Format Converter and Checker',
-        projectDesc: 'A format converter and checker that can convert a file from one format to another and check if the file is in the correct format',
+        projectDesc: 'A tool for file conversion between different formats and verification of file format correctness.',
         tags: ['Python'],
         code: '',
         demo: '',

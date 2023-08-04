@@ -1,21 +1,20 @@
  export const skillsData = [
+    'Java',
+    'C++',
+    'Python',
+    'Javascript',
     'Spring',
     'React',
     'MySQL',
-    'Maven',
-    'Swagger',
     'Azure',
+    'Maven',
+    'Redis',
     'HTML',
-    'Javascript',
     'CSS',
-    'Python',
-    'Java',
-    'C++',
+    'Swagger',
     'Git',
     'MaterialUI',
-    'AntD',
-    'redis'
-    
+    'AntD'    
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
