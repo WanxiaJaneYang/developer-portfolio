@@ -9,6 +9,7 @@ import { aboutData } from '../../data/aboutData'
 function About() {
 
     const { theme } = useContext(ThemeContext);
+    const currentYear = new Date().getFullYear();
     return (
         <div className="about" id="about" style={{backgroundColor: theme.secondary}}>
             <div className="line-styling">
@@ -20,6 +21,9 @@ function About() {
                 <div className="about-description">
                     <h2 style={{color: theme.primary}}>{aboutData.title}</h2>
                     <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
+                    <p style={{color: theme.tertiary80, fontSize: '14px', marginTop: '10px'}}>
+                    Content © {currentYear} {aboutData.name || 'Your Name'}. All Rights Reserved.
+                     </p>
                 </div>
                 <div className="about-img">
                     <img 
