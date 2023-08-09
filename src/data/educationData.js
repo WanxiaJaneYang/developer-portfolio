@@ -4,6 +4,7 @@ export const educationData = [
         institution: 'University of Adelaide',
         course: 'Master of Computing and Innovation',
         courses:[
+            "Software Engineering Process",
             'Algorithm and Data Structure Analysis',
             'Mining Big Data',
             'Project Management Fundamentals'

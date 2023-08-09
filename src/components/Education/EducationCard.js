@@ -38,7 +38,9 @@ function EducationCard({ id, institution, course, startYear, endYear, atar, cour
                     <Box mt={2} >
                     {courses && courses.map(course => (
                         <Chip 
-                        label={course} style={{marginRight: '10px',backgroundColor: theme.primary50, color: theme.tertiary}} />
+                        label={course} style={{marginRight: '10px',
+                        marginBottom: '10px',
+                        backgroundColor: theme.primary50, color: theme.tertiary}} />
                     ))}  
                     </Box>             
                 </div>
