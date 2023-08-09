@@ -53,7 +53,7 @@ export const projectsData = [
     {
         id: 5,
         projectName: 'Toy Proxy Server',
-        projectDesc: 'A converter that takes instructions intended for a virtual machine (an emulation of a computer system) and translates them into a low-level language that a specific hardware can execute.',
+        projectDesc: 'A proxy server that can handle HTTP requests and responses, and can cache web pages to improve performance.',
         tags: ['Python','RFC','HTTP'],
         code: 'https://github.com/WanxiaJaneYang/ToyProxy',
         demo: '',
