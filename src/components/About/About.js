@@ -21,9 +21,6 @@ function About() {
                 <div className="about-description">
                     <h2 style={{color: theme.primary}}>{aboutData.title}</h2>
                     <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
-                    <p style={{color: theme.tertiary80, fontSize: '14px', marginTop: '10px'}}>
-                    Content © {currentYear} {aboutData.name || 'Your Name'}. All Rights Reserved.
-                     </p>
                 </div>
                 <div className="about-img">
                     <img 
@@ -31,6 +28,9 @@ function About() {
                         alt="" 
                     />
                 </div>
+            </div>
+            <div className="about-footer">
+                <p style={{color:theme.tertiary70}}>© {currentYear} Wanxia Yang. All rights reserved.</p>
             </div>
         </div>
 
