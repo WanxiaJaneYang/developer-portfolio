@@ -11,6 +11,8 @@ import translator from "../assets/png/translator.png"
 import jack from "../assets/png/jack.png"
 import protocol from "../assets/png/protocol.png"
 import format from "../assets/png/format.png"
+import ambulance from "../assets/png/ambulance.png"
+import bus from "../assets/png/bus.png"
 
 
 export const projectsData = [
@@ -115,6 +117,21 @@ export const projectsData = [
     },
     {
         id: 12,
+        projectName: 'Bus Reservation System',
+        projectDesc: 'A bus reservation system allowing users to manage bus details, seat reservations, and view seating arrangements.',
+        tags: ['Java','OOP','SVN'],
+        image: bus
+    },
+    {
+        id: 13,
+        projectName: 'Emergency Service System',
+        projectDesc: 'A system designed for an Emergency Service Center to organize and prioritize ambulance dispatches. The application efficiently prioritizes patients based on their urgency and ensures quick response times for critical cases.',
+        tags: ['Java','OOP','SVN'],
+        image: ambulance
+
+    },
+    {
+        id: 14,
         projectName: 'Hanoi Tower Demo',
         projectDesc: 'A demo that can show the process of solving Hanoi Tower problem given the number of disks',
         tags: ['Java','Java Swing','GUI'],
@@ -123,7 +140,7 @@ export const projectsData = [
         image: hanoi
     },
     {
-        id: 13,
+        id: 15,
         projectName: 'Format Converter and Checker',
         projectDesc: 'A tool for file conversion between different formats and verification of file format correctness.',
         tags: ['Python'],
