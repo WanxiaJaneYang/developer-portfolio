@@ -33,7 +33,7 @@ function EducationCard({ id, institution, course, startYear, endYear, atar, cour
                 <div className="education-details">
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                     <h4 style={{color: theme.tertiary}}>{course}</h4>
-                    {atar && <h6 style={{color: theme.tertiary70}}>WAM: {atar}</h6>}
+                    {atar && <h6 style={{color: theme.tertiary70}}>GPA: {atar}</h6>}
                     <h5 style={{color: theme.tertiary80}}>{institution}</h5>
                     <Box mt={2} >
                     {courses && courses.map(course => (

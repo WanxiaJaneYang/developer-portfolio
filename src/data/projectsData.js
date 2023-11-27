@@ -13,6 +13,10 @@ import protocol from "../assets/png/protocol.png"
 import format from "../assets/png/format.png"
 import ambulance from "../assets/png/ambulance.png"
 import bus from "../assets/png/bus.png"
+import gps from "../assets/png/gps.png"
+import dfa from "../assets/png/dfa.png"
+import rail from "../assets/png/rail.png"
+import block from "../assets/png/block.png"
 
 
 export const projectsData = [
@@ -45,6 +49,42 @@ export const projectsData = [
     },
     {
         id: 4,
+        projectName: 'Block Compression Algorithm',
+        projectDesc: 'A compression algorithm developed for Maptek that can compress a 3D stream by dividing it into blocks and compressing each block individually.',
+        tags: ['C++','Image Compression','Multithreading'],
+        code: '',
+        demo: '',
+        image: block
+    },
+    {
+        id:5,
+        projectName: 'Regular Expression Engine',
+        projectDesc: 'A regular expression engine that can match a string against a regular expression and return the matched substring.',
+        tags:['NFAs','DFAs','Java'],
+        code: '',
+        demo: '',
+        image: dfa
+    },
+    {
+        id:6,
+        projectName: 'Railway Navigation System',
+        projectDesc: 'A navigation system that can navigate trains through a railway network using petri nets.',
+        tags:['Petri Nets','Java'],
+        code: '',
+        demo: '',
+        image: rail
+    },
+    {
+        id:7,
+        projectName: 'GPS Signals Tracker',
+        projectDesc: 'A GPS signals tracker that can track GPS signals and visualize the results.',
+        tags:['Functional Reactive Programming','Java'],
+        code: '',
+        demo: '',
+        image: gps
+    },
+    {
+        id: 8,
         projectName: 'Shopping Recommendation Algorithm',
         projectDesc: 'A smart algorithm designed for a grocery store that offers shopping suggestions based on a customer\'s past purchases.',
         tags: ['Python','Jupyter','Pattern Mining'],
@@ -53,7 +93,7 @@ export const projectsData = [
         image: shopping
     },
     {
-        id: 5,
+        id: 9,
         projectName: 'Toy Proxy Server',
         projectDesc: 'A proxy server that can handle HTTP requests and responses, and can cache web pages to improve performance.',
         tags: ['Python','RFC','HTTP'],
@@ -62,7 +102,7 @@ export const projectsData = [
         image: server
     },
     {
-        id: 6,
+        id: 10,
         projectName: 'Distributed Routing Algorithm',
         projectDesc: 'A distributed routing algorithm that can find the shortest path for each router given a network topology',
         tags: ['Python','Distributed Routing Algorithm'],
@@ -71,7 +111,7 @@ export const projectsData = [
         image: routing
     },
     {
-        id: 7,
+        id: 11,
         projectName: 'Selective Repeat Protocol',
         projectDesc: 'A communication system that ensures information sent over the internet reaches its destination correctly, even when some data gets lost or corrupted.',
         tags: ['C','Transportation Protocol'],
@@ -80,7 +120,7 @@ export const projectsData = [
         image: protocol
     },
     {
-        id: 8,
+        id: 12,
         projectName: 'Jack Compiler',
         projectDesc: 'A tool that translates human-friendly programming instructions(JACK) into a format that can be executed by a Virtual Machine.',
         tags: ['Java','VM Language','Jack Language'],
@@ -89,7 +129,7 @@ export const projectsData = [
         image: jack
     },
     {
-        id: 9,
+        id: 13,
         projectName: 'Hack Assembler',
         projectDesc: 'A utility that transforms low-level programming language (HACK) into a format that can be directly understood by a computer system.',
         tags: ['C++','Machine Language'],
@@ -98,7 +138,7 @@ export const projectsData = [
         image: assembler
     },
     {
-        id: 10,
+        id: 14,
         projectName: 'Virtual Machine Translator',
         projectDesc: 'A converter that takes instructions intended for a virtual machine (an emulation of a computer system) and translates them into a low-level language that a specific hardware can execute.',
         tags: ['C++','VM Language','Hack Assembly Language'],
@@ -107,7 +147,7 @@ export const projectsData = [
         image: translator
     },
     {
-        id: 11,
+        id: 15,
         projectName: 'Customized Scheduling Algorithm',
         projectDesc: 'A customized scheduling algorithm that can schedule tasks to achieve a balance among shortest response time, highest throughput and lowest turnaround time',
         tags: ['C++','Cpu Scheduling'],
@@ -116,14 +156,14 @@ export const projectsData = [
         image: schedulor
     },
     {
-        id: 12,
+        id: 16,
         projectName: 'Bus Reservation System',
         projectDesc: 'A bus reservation system allowing users to manage bus details, seat reservations, and view seating arrangements.',
         tags: ['Java','OOP','SVN'],
         image: bus
     },
     {
-        id: 13,
+        id: 17,
         projectName: 'Emergency Service System',
         projectDesc: 'A system designed for an Emergency Service Center to organize and prioritize ambulance dispatches. The application efficiently prioritizes patients based on their urgency and ensures quick response times for critical cases.',
         tags: ['Java','OOP','SVN'],
@@ -131,7 +171,7 @@ export const projectsData = [
 
     },
     {
-        id: 14,
+        id: 18,
         projectName: 'Hanoi Tower Demo',
         projectDesc: 'A demo that can show the process of solving Hanoi Tower problem given the number of disks',
         tags: ['Java','Java Swing','GUI'],
@@ -140,7 +180,7 @@ export const projectsData = [
         image: hanoi
     },
     {
-        id: 15,
+        id: 19,
         projectName: 'Format Converter and Checker',
         projectDesc: 'A tool for file conversion between different formats and verification of file format correctness.',
         tags: ['Python'],

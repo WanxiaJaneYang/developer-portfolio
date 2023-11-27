@@ -77,6 +77,8 @@ import swagger from '../assets/svg/skills/swagger.svg'
 import antd from '../assets/svg/skills/ant-design.svg'
 import maven from '../assets/svg/skills/maven-svgrepo-com.svg'
 import redis from '../assets/svg/skills/redis.svg'
+import redux from '../assets/svg/skills/redux-svgrepo-com.svg'
+import ubuntu from '../assets/svg/skills/ubuntu-svgrepo-com.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -242,6 +244,10 @@ export const skillsImage = (skill) => {
             return maven;
         case 'redis':
             return redis;
+        case 'redux':
+            return redux;
+        case 'ubuntu':
+            return ubuntu;
         default:
             break;
     }

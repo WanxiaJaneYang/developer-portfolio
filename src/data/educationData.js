@@ -4,10 +4,10 @@ export const educationData = [
         institution: 'University of Adelaide',
         course: 'Master of Computing and Innovation',
         courses:[
-            "Software Engineering Process",
-            'Algorithm and Data Structure Analysis',
+            "Software Engineering & Project",
+            'Event Driven Computing',
             'Mining Big Data',
-            'Project Management Fundamentals'
+            'Specialised Programming'
         ],
         startYear: '2022',
         endYear: 'Present',
