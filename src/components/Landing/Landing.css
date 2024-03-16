@@ -94,6 +94,9 @@
 .lcr-buttonContainer {
   margin-top: 2rem;
   width: 350px;
+  @media screen and (min-width: 1280px) {
+    width: 450px;
+  }
   display: flex;
   align-items: center;
   justify-content: space-between;

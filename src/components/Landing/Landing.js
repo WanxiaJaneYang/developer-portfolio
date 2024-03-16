@@ -26,6 +26,9 @@ function Landing() {
             textTransform: 'inherit',
             textDecoration: 'none',
             width: '150px',
+            '@media screen and (min-width: 1280px)': {
+                width: '200px', // Larger screens
+            },
             fontSize: '1rem',
             fontWeight: '500',
             height: '50px',
@@ -48,6 +51,9 @@ function Landing() {
             textTransform: 'inherit',
             textDecoration: 'none',
             width: '150px',
+            '@media screen and (min-width: 1280px)': {
+                width: '200px', // Larger screens
+            },
             height: '50px',
             fontSize: '1rem',
             fontWeight: '500',
